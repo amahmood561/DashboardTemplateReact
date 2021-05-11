@@ -6,6 +6,7 @@ import Signin from './pages/login/Signin';
 import {HashRouter} from "react-router-dom";
 // core styles
 import "../src/scss/volt.scss";
+import {Login} from './pages/login/login.jsx';
 
 // vendor styles
 import "@fortawesome/fontawesome-free"
@@ -13,7 +14,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import "react-datetime/css/react-datetime.css";
 ReactDOM.render(
     <HashRouter>
-        <Signin />
+        <Login />
     </HashRouter>,
   document.getElementById('root')
 );
