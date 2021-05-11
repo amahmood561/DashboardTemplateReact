@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Dashboard Template in react  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a bare bones react sign in dashboard
 
 ## Available Scripts
 
