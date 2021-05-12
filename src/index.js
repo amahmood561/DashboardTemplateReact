@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Signin from './pages/login/Signin';
 import {HashRouter} from "react-router-dom";
 // core styles
 import "../src/scss/volt.scss";
@@ -12,9 +11,11 @@ import {Login} from './pages/login/login.jsx';
 import "@fortawesome/fontawesome-free"
 import "@fortawesome/fontawesome-free/css/all.css";
 import "react-datetime/css/react-datetime.css";
+import HomePage from './pages/homepage/HomePage';
+
 ReactDOM.render(
     <HashRouter>
-        <Login />
+        <HomePage />
     </HashRouter>,
   document.getElementById('root')
 );
