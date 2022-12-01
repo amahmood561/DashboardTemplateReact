@@ -63,6 +63,6 @@ export default () => (
   <Switch>
       <RouteWithLoader exact path={Routes.Presentation.path} component={Login} />
       <RouteWithLoader exact path={Routes.Signin.path} component={Login} />
-    <RouteWithSidebar exact path={Routes.DashboardOverview.path} component={DashboardOverview} />
+      <RouteWithSidebar exact path={Routes.DashboardOverview.path} component={DashboardOverview} />
   </Switch>
 );
